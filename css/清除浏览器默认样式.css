@@ -1,0 +1,58 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin:0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+	margin: 0;
+}
+ul,ol,li{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+input{
+	padding: 0;
+	outline: none;
+	border: none;
+}
+button{
+	padding: 0;
+	border:none;
+	outline: none;
+}
+a,a:link,a:visited,a:hover,a:active{
+	text-decoration: none;
+	color: black;
+}
+
+i,b{
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* 图片自适应 */
+.auto-img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* 父元素清除子元素浮动 */
+.clearflow{
+	overflow: hidden;
+}
+
+/* 子元素清除子元素浮动 */
+.clearfix{
+	clear: both;
+}
+
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
